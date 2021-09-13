@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>payment form</title>
+        <link rel="stylesheet" href="paytmform.css">
+    </head>
+    <body>
+        <div class="container">
+        <form action="">
+            <h1 class="main_hadding">payment forms</h1>
+            <h2>contact information</h2>
+            <p>name: * 
+                <input type="text"  placeholder="kirti soni" name="name" required ></p>
+            <fieldset>
+                <legend>gender*</legend>
+                <p>
+                    male <input type="radio" name="gender" id="male" required>femail <input type="radio" name="gender" id="femail" required>
+                </p>
+            </fieldset>
+            <p> Address: <textarea name="address" id="address" cols="100" rows="4" placeholder="enter your address"></textarea></p>
+            <p> Email:* <input type="email" name="email" id="email"required placeholder="ghbjhg@gmail.com"> </p>
+            <p> pincode: <input type="number" name="pincode" id="pincode" required placeholder="123456"></p>
+            <h2> payment information </h2>
+            <p>card type: *
+                  <select name="card type" id="card type">
+                  <option value="">--select a card type--</option>  
+                  <option value="visa">visa</option>  
+                  <option value="rupay">rupay</option>  
+                  <option value="mastercard">mastercard</option>  
+                  </select>         
+            </p> 
+            <p>
+                card number * <input type="number" name="card_number" id="card_number" placeholder="426498271">
+            </p>
+            <p> 
+                Expiration date:* <input type="date" name="exp_date" id="exp_date" placeholder="dd/mm/yyyy">
+            </p>
+            <p>
+                cvv <input type="password" name="cvv" id="cvv" placeholder="123">
+            </p>
+            <p>
+                <input type="submit" value="pay now">
+            </p>
+
+
+        </form>
+    </div> 
+    </body>
+</html>
